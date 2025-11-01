@@ -18,7 +18,7 @@ The project walks through the **entire ML workflow** — from **data collection*
 
 ## 🧩 Project Workflow
 
-### **1️⃣ Data Collection**
+### ** Data Collection**
 
 The dataset used for this project is a variation of the **UCI Heart Disease Dataset**, containing clinical data such as:
 - Age, sex, chest pain type, resting blood pressure, cholesterol, and more.
@@ -28,7 +28,7 @@ Data Source Example: [UCI Machine Learning Repository – Heart Disease Dataset]
 
 ---
 
-### **2️⃣ Data Cleaning and Preparation**
+### ** Data Cleaning and Preparation**
 
 Using **Pandas**, I performed:
 - Handling of missing or inconsistent data  
@@ -36,8 +36,8 @@ Using **Pandas**, I performed:
 - Feature scaling (for Logistic Regression)  
 - Split into training and test sets (usually 80/20 split)
 ---
-3️⃣ Model Training
-
+ Model Training
+---
 Two models were trained to ensure prediction reliability:
 
 (a) Logistic Regression
@@ -63,7 +63,7 @@ Precision, Recall, F1-score
 
 Confusion Matrix
 ---
-5️⃣ Model Comparison and Saving
+ Model Comparison and Saving
 ---
 After evaluation:
 
@@ -79,7 +79,7 @@ If one predicts 1 and the other 0 → Flag for Medical Review ⚠️
 
 If both predict 0 - Low or Little Risk
 
-6️⃣Streamlit App Development
+Streamlit App Development
 ---
 
 The app was built using Streamlit, a lightweight Python framework for ML app deployment.
